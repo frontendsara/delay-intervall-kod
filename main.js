@@ -14,8 +14,8 @@ function changeBackgroundColor() {
 }
 
 function addEventListeners(){
-    const cancelTimeoutbutton = document.getElementById("cancel")
-    cancelTimeoutbutton.addEventListener("click", cancelBackgroundChange);
+    const cancelTimeoutButton = document.getElementById("cancel")
+    cancelTimeoutButton.addEventListener("click", cancelBackgroundChange);
 
     const startIntervalButton = document.getElementById("start-interval");
     startIntervalButton.addEventListener("click", startBackgroundChangeInterval)
